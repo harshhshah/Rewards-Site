@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
     </head>
     <body>
-	<script>
+      <script>
         if(performance.navigation.type == 2){
           location.reload(true);
         }

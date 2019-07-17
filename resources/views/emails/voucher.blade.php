@@ -1,1 +1,1 @@
-This is test mail
+Your Voucher Code : {{ $voucher }}

@@ -16,7 +16,8 @@ class CreateShopTable extends Migration
         Schema::create('shops', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->text('location');
+            $table->text('location')->nullable();
+            $table->text('gplus_link')->nullable();
             $table->timestamps();
         });
     }

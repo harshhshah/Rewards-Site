@@ -15,7 +15,7 @@ class Shop extends Model
    * @var array
    */
   protected $fillable = [
-      'id','name','location',
+      'id','name','location','gplus_link'
   ];
 
   /**
