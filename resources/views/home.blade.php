@@ -6,11 +6,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
     </head>
     <body>
-      <script>
-        if(performance.navigation.type == 2){
-          location.reload(true);
-        }
-      </script>
         <nav class="navbar navbar-default" data-spy="affix" style="background-color:#fb9013">
             <div class="navbar-header">
                 <span>
